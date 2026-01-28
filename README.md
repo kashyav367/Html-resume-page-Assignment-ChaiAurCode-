@@ -9,7 +9,7 @@ This project focuses on clean structure, proper semantics, and accessibility—w
 
 Below is a preview of the resume layout:
 
-![Resume Preview](Resume.png)
+![Resume Preview](<img width="875" height="1142" alt="image" src="https://github.com/user-attachments/assets/526bd892-504e-487d-b106-b81936577fa3" />)
 
 
 ---
