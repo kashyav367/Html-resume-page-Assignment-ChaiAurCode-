@@ -9,7 +9,8 @@ This project focuses on clean structure, proper semantics, and accessibility—w
 
 Below is a preview of the resume layout:
 
-![Resume Preview](./Resume.png#)
+![Resume Preview](Resume.png)
+
 
 ---
 
