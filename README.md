@@ -1,7 +1,14 @@
 # Semantic HTML Resume Project
 
 A simple and beginner-friendly resume project built using **pure HTML5 semantic tags**.  
-This project focuses on clean structure, proper semantics, and accessibility—without using CSS or JavaScript.
+This project focuses on clean structure, proper semantics, and accessibility — without using CSS or JavaScript.
+
+---
+
+## 🌐 Live Demo
+
+You can view the live hosted resume here:  
+🔗 **https://html-resume-page-assignment.netlify.app/**
 
 ---
 
@@ -9,8 +16,7 @@ This project focuses on clean structure, proper semantics, and accessibility—w
 
 Below is a preview of the resume layout:
 
-![Resume Preview](/Resume.png)
-
+![Resume Preview](Resume.png)
 
 ---
 
@@ -24,7 +30,7 @@ It helps beginners understand proper document structure, readability, and access
 ## 🎯 Key Highlights
 
 - Built using **HTML5 semantic elements only**
-- Proper heading hierarchy (`h1` → `h2` → `h3`)
+- Proper heading hierarchy (`h1 → h2 → h3`)
 - Clean and readable markup
 - Accessibility-friendly structure
 - Beginner-focused project
@@ -37,68 +43,71 @@ It helps beginners understand proper document structure, readability, and access
 
 - `<header>` – Name and professional title  
 - `<main>` – Main resume content  
-- `<section>` – Logical content grouping  
-- `<article>` – Individual experience or project blocks  
-- `<table>`, `<thead>`, `<tbody>` – Structured data  
+- `<section>` – Logical grouping of content  
+- `<article>` – Individual projects or experience entries  
+- `<table>`, `<thead>`, `<tbody>` – Structured data (education & experience)  
 - `<address>` – Contact information  
 - `<footer>` – Footer and copyright  
-- `<hr>` – Section separators  
+- `<hr>` – Visual separation between sections  
 
 ### 2. HTML Structure
-Organizing content logically using proper HTML document flow.
+How to organize content logically using proper document flow and semantic elements.
 
 ### 3. Accessibility
-How semantic elements improve screen reader support.
+How semantic HTML improves screen reader support and overall accessibility.
 
 ### 4. Best Practices
-Writing clean and readable HTML without inline styling.
+Writing clean, readable HTML without inline styles or unnecessary tags.
 
 ---
 
-## 🛠️ Project Steps
+## 🛠️ Project Implementation Steps
 
 ### Step 1: Basic Setup
 - Created `index.html`
-- Added HTML5 boilerplate
-- Included meta tags
+- Added HTML5 boilerplate (`<!DOCTYPE html>`)
+- Included meta tags for charset and viewport
 
 ### Step 2: Semantic Layout
-- Used `<header>` and `<main>`
+- Used `<header>` for name and role
+- Wrapped content inside `<main>`
 - Organized resume into `<section>` elements:
   - About
   - Skills
   - Experience
+  - Projects
   - Education
   - Contact
 
 ### Step 3: Content
-- Added meaningful content
-- Used lists and tables where required
-- Applied `<hr>` for visual separation
+- Added meaningful text content
+- Used lists and tables where appropriate
+- Applied `<hr>` for section separation
 
 ### Step 4: Footer
-- Added `<footer>` with copyright info
+- Added `<footer>` with copyright information
 
 ---
 
 ## ▶️ How to Run Locally
 
-### Method 1: Browser
-- Open `index.html` directly in any browser
+### Method 1: Open in Browser
+1. Navigate to the project folder
+2. Open `index.html` in any web browser
 
-### Method 2: VS Code Live Server
-- Install **Live Server**
-- Right-click `index.html`
-- Select **Open with Live Server**
+### Method 2: Using VS Code Live Server
+1. Install **Live Server** extension
+2. Right-click on `index.html`
+3. Select **Open with Live Server**
 
 ---
 
-## 🚀 Push to GitHub
+## 🚀 How to Push to GitHub
 
 ```bash
 git init
 git add .
-git commit -m "Add semantic HTML resume project"
+git commit -m "Initial commit: semantic HTML resume project"
 git branch -M main
-git remote add origin <your-repo-url>
+git remote add origin <repository-url>
 git push -u origin main
